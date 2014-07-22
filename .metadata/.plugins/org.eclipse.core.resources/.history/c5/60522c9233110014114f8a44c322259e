@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html data-ng-app="menuocracy">
+	<head>
+		<title>Menuocracy v2.0</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!-- load jquery -->
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script><!-- load angular -->
+		<!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">--> <!-- load font-awesome -->
+		<link href="stylesheets/font-awesome.min.css">
+		<script src="core.js"></script>
+	</head>
+	
+	<body data-ng-controller="mainController">
+		<div class="container">
+			<div align="right">
+				<ul class="nav nav-pills pull-right">
+			      <li><a href=""><span class="fa fa-home"></span> Home</a></li>
+			      <li><a href=""><span class="fa fa-facebook"></span> Login with Facebook</a></li>
+			      <li><a href=""><span class="fa fa-twitter"></span> Login with Twitter</a></li>
+			      <li><a href=""><span class="fa fa-bar-chart-o"></span>View Poll Results</a></li>
+			    </ul>
+			</div>
+			
+			<div class="jumbotron text-center">
+				<h1>¿ed</h1>
+				<!--<h3>Democratize the menu!</h3>-->
+			</div>
+			
+			<div align="center">
+				<form class="form-inline" role="form">	
+					<div class="form-group">
+						<label class="sr-only">Find a place to eat or drink</label>
+						<input name="searchTerm" id="searchTerm" type="text" placeholder="Food, bars or anything" class="form-control" data-ng-model="search.term"/>
+						<br>
+					</div>
+					
+					<div class="form-group">	
+						<label class="sr-only">Zipcode/City Name</label>
+						<input name="zipCode" id="zipCode" type="text" placeholder="City Name or Zip code" class="form-control" data-ng-model="search.zipcode"/>
+						<br>
+					</div>
+					<button id="findLunchLocations" type="submit" name="search" value="search" class="btn btn-primary" ><span class="fa fa-search"></span> Let's find lunch</button>
+				</form>
+			</div>
+		</div>
+	<body>
+</html>		
