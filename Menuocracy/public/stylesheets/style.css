@@ -2,7 +2,17 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
-a {
-  color: #00B7FF;
+material-whiteframe {
+  background: #fff;
+  margin: 25px;
+}
+material-whiteframe div {
+  text-align: center;
+  padding: 25px;
+}
+material-content {
+      top: 192px;
+}
+.material-toolbar-tools {
+      padding-top: 80px;
 }

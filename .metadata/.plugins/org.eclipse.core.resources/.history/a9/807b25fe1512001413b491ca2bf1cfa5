@@ -1,0 +1,13 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+material-whiteframe {
+  background: #fff;
+  margin: 25px;
+}
+material-whiteframe div {
+  text-align: center;
+  padding: 25px;
+}

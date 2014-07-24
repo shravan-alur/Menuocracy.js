@@ -2359,3 +2359,1804 @@ java.lang.NullPointerException
 	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
 	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
 	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+!SESSION 2014-07-21 22:17:02.912 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/shravankumaralur/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.jee.product -keyring /Users/shravankumaralur/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-07-21 22:17:12.436
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2014-07-21 22:17:13.133
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-21 22:17:13.133
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f91f44,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73c718,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY tern.eclipse.ide.core 4 0 2014-07-21 22:17:19.042
+!MESSAGE Error while creating tern server
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.getTernServer(IDETernProject.java:164)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:766)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 22:17:19.046
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 22:17:19.052
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:18:42.756
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:18:42.758
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:18:50.790
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:18:50.793
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:19:03.834
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:19:03.836
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:19:35.343
+!MESSAGE Error while tern hover.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.taginfo.HTMLAngularTagInfoHoverProcessor.find(HTMLAngularTagInfoHoverProcessor.java:130)
+	at org.eclipse.angularjs.internal.ui.taginfo.HTMLAngularTagInfoHoverProcessor.computeTagAttValueHelp(HTMLAngularTagInfoHoverProcessor.java:85)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:111)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:23:03.396
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:23:06.411
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:23:08.922
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:23:11.441
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:23:12.952
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:23:23.978
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:23:58.538
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:23:58.539
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:24:38.597
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:24:38.598
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:30:41.259
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:30:41.261
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:31:13.814
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:31:13.815
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:31:27.848
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:31:27.849
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:42:42.857
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:42:42.858
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:46:03.682
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-21 23:46:03.683
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:28:14.368
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:28:14.370
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:30:37.634
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:30:37.635
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:57:13.360
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:19.116
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:19.116
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:28.154
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:28.156
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:28.156
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:28.157
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:45.706
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:45.708
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:45.709
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:47.224
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:47.225
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:47.226
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:58:47.226
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:59:16.791
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:59:16.793
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:59:16.794
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 22:59:16.795
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:03:02.190
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:03:02.192
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:03:02.193
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for COMMAND+SHIFT+\:
+Binding(COMMAND+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b17c3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(COMMAND+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@179a09c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50faa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@479846,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javascriptViewScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.open.file.from.source,Open Selection,
+		Open an editor on the selected link,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f06f9b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for COMMAND+O:
+Binding(COMMAND+O,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e5647,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(COMMAND+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1726d41,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for COMMAND+I:
+Binding(COMMAND+I,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.indent,Indent Line,
+		Indents the current line,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@162ca38,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(COMMAND+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c246b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(COMMAND+I,
+	ParameterizedCommand(Command(org.eclipse.ui.file.properties,Properties,
+		Display the properties of the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2678f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for COMMAND+SHIFT+P:
+Binding(COMMAND+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ca5895,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(COMMAND+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@960b61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for COMMAND+/:
+Binding(COMMAND+/,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7dc9b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(COMMAND+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11ad529,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7dc9b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10d810b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e86471,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,cocoa,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@445aaf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_LEFT:
+Binding(CTRL+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19da087,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,cocoa,system)
+Binding(CTRL+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c42a9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F:
+Binding(COMMAND+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19622c5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(COMMAND+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@129cc0f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7963ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,cocoa,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c4ecbe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-22 23:03:40.708
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_RIGHT:
+Binding(CTRL+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@85d240,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,cocoa,system)
+Binding(CTRL+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@192e431,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,cocoa,system)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:04:23.924
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:04:23.926
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:04:23.927
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:07:16.195
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:07:16.196
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:07:16.196
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:07:53.258
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:07:53.260
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:07:53.260
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:15:19.597
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:15:19.599
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:15:19.599
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:15:37.164
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:15:37.165
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:17:07.817
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:17:07.819
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:17:07.820
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:19:54.602
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:19:54.603
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:19:54.604
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:24:58.295
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:24:58.298
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:24:58.298
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:25:19.840
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:25:19.842
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.angularjs.ui 4 0 2014-07-22 23:25:19.843
+!MESSAGE Error while tern validator.
+!STACK 0
+java.lang.NullPointerException
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:767)
+	at tern.eclipse.ide.core.IDETernProject.request(IDETernProject.java:748)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.find(HTMLAngularContentValidator.java:123)
+	at org.eclipse.angularjs.internal.ui.validation.HTMLAngularContentValidator.doValidate(HTMLAngularContentValidator.java:72)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:124)
+	at org.eclipse.angularjs.internal.ui.validation.AbstractValidator.validate(AbstractValidator.java:108)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:381)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:259)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
